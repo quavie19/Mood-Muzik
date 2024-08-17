@@ -9,22 +9,24 @@ a {
     color: #fff;
 }
 
-.bg-light {
+.bg--light {
     background: #fff;
     color: #000;
 }
 
-.bg-dark {
+.bg--dark {
     background: #000;
     color: #fff;
 }
+
+/* HEADER SECTION */
 
 header {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
     height: 100vh;
-    width: 100%;
     text-align: center;
     padding: 10px;
 }
@@ -37,13 +39,18 @@ header p {
     line-height: 117%;
 
 }
+.icon-bg-dark{
+    background: #000;
+}
+
+
+/* PLAYLIST LENGTH SECTION */
 
 #playlist-length {
     display: flex;
     flex-direction: column;
     justify-content: center;
     height: 100vh;
-    width: 100%;
     text-align: center;
 }
 
@@ -92,4 +99,53 @@ button {
 button:hover {
     background-color: #000;
     color: #fff;
+}
+
+/* MOOD SELECTOR SECTION  */
+
+#mood-selector{
+        display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            height: 100vh;
+            width: 100%;
+            text-align: center;
+}
+
+#mood-selector div {
+    padding: 20px 0;
+}
+
+#mood-selector div p {
+    text-transform: uppercase;
+    font: 2rem sans-serif;
+    font-weight: 700;
+    letter-spacing: .1em;
+    line-height: 117%;
+}
+
+.happy:hover{
+    background: #ff7400;
+}
+
+.sad:hover {
+    background: #0071b6;
+}
+
+.chill:hover {
+    background: #FFEA00;
+}
+.energetic:hover {
+    background: #f31c1c;
+}
+
+/* CONNECT SPOTIFY */
+
+#connect-spotify{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
