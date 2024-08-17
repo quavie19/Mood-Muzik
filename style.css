@@ -148,4 +148,53 @@ button:hover {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background: #1ED760;
+    row-gap: 20px;
+}
+
+#spotify-btn{
+    background: #000;
+    color: #fff;
+}
+
+#spotify-btn:hover {
+    color: #1ED760;
+}
+
+/* CHOOSE ARTIST  */
+
+#choose-artist {
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    color: #1ED760;
+}
+
+
+#choose-artist h1{
+    text-align: center;
+    padding: 100px 0;
+    font: 2rem sans-serif;
+ 
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-row-gap: 50px;
+    padding: 20px 10px;
+    justify-items: center;
+    text-align: center;
+}
+
+.grid-container img{
+    width: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 20px 0;
+
+}
+
+.grid-container div > img > p  {
+    color: #1ED760;
 }
